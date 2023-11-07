@@ -2,8 +2,8 @@
   "name": "apptest",
   "type": "package",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/devthalal/apptest.git",
+    "ssh": "git@github.com:devthalal/apptest.git",
     "branch": "block_apptest"
   },
   "dependencies": {
