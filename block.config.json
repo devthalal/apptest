@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/apptest.git",
+    "ssh": "git@github.com:devthalal/apptest.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "4tN9f8K73gJnIqQl5QspX",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "ysvIV0HT-mFNsot-LQRmV"
+  ]
+}
